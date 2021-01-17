@@ -33,28 +33,13 @@ class CircularCard extends StatelessWidget {
           ),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(100.0),
-                child: Container(
-                  height: 2*radius,
-                  width: 2*radius,
-                  child: Center(
-                    child: child != null ? child : null,
-                  ),
-                  /*child: Card(
-                    elevation: 15.0,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(90.0),
-                    ),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(90.0),
-                      child: Image.asset(
-                        image,
-                        height: MediaQuery.of(context).size.height*0.185,
-                        width: MediaQuery.of(context).size.height*0.185,
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),*/
-                ),
+            child: Container(
+              height: 2*radius,
+              width: 2*radius,
+              child: Center(
+                child: child != null ? child : null,
+              ),
+            ),
           ),
         ),
       ),
