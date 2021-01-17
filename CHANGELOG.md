@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 13-01-21
 
-* TODO: Describe initial release.
+* This version enable you to generate circulard card using the radius.
+You will be able to change the color, elevation, add image background and child

@@ -1,8 +1,8 @@
 name: circular_card
-description: A new Flutter package to easily generate a  circular card
+description: A new Flutter package to easily create a  circular card
 version: 0.0.1
-author:
-homepage:
+author: Jocelin Fowe <jocelinlaroch08@gmail.com>
+homepage: https://github.com/Jocelin-La-Roch/circular_card.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
