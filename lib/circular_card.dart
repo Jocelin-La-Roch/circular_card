@@ -12,7 +12,7 @@ class CircularCard extends StatelessWidget {
   final Widget child;
 
   CircularCard({
-      @required this.child,
+      required this.child,
       this.radius = 50.0,
       this.color = Colors.white,
       this.elevation = 5.0,
@@ -36,7 +36,7 @@ class CircularCard extends StatelessWidget {
               height: 2*radius,
               width: 2*radius,
               child: Center(
-                child: child != null ? child : null,
+                child: child,
               ),
             ),
           ),
