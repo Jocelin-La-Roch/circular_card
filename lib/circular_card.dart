@@ -5,15 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
 class CircularCard extends StatelessWidget {
-
-  String image;
+  
   final Color color;
   final double elevation;
   final double radius;
   final Widget child;
 
   CircularCard({
-      this.child,
+      @required this.child,
       this.radius = 50.0,
       this.color = Colors.white,
       this.elevation = 5.0,
